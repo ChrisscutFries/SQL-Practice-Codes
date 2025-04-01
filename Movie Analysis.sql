@@ -15,4 +15,4 @@ ON m.movie_id = mr.movie_id
 WHERE month(created_at) = 2 and year(created_at)=2020
 GROUP BY 1
 ORDER BY avg(rating) desc, 1 asc
-Limit 1);
+Limit 1)
